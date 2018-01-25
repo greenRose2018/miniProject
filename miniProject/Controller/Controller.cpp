@@ -46,10 +46,10 @@ int Controller:: secondArray()
     
     return 1;
 }
-std:: string Controller:: stuff()
+string Controller:: stuff()
 {
-    std:: string myName;
-    std:: string * myPointer;
+    string myName;
+    string * myPointer;
     
     myPointer = &myName;
     *myPointer = "Brittney Morales";
