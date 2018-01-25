@@ -22,6 +22,9 @@ public:
     Controller();
     void start();
     int myFirstArray();
+    int secondArray();
+    std:: string stuff();
+    void forLoop();
 };
 
 #endif /* Controller_hpp */
