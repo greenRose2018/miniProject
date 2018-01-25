@@ -37,6 +37,22 @@ int Controller:: myFirstArray()
     
     return 0;
 }
+std:: string Controller:: stuff()
+{
+    std:: string myName;
+    std:: string * myPointer;
+    
+    myPointer = &myName;
+    *myPointer = "Brittney Morales";
+    
+    std:: string favAnimal = "Penguin";
+    
+    cout << myName << endl;
+    cout << myPointer << " this is my pointer" << endl;
+    cout << "Hello, my favorite animal is a "<< favAnimal << "." << endl;
+    
+    return "2";
+}
 void Controller:: forLoop()
 {
     for(int index = 0; index < 10; index+=1)
