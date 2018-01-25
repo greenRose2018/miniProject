@@ -37,6 +37,15 @@ int Controller:: myFirstArray()
     
     return 0;
 }
+int Controller:: secondArray()
+{
+    for(int index = 13; index < 32; index+=1)
+    {
+        cout << index << endl;
+    }
+    
+    return 1;
+}
 std:: string Controller:: stuff()
 {
     std:: string myName;
