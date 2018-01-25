@@ -17,11 +17,10 @@ Controller:: Controller()
 
 void Controller:: start()
 {
-    for(int index = 0; index < 10; index+=1)
-    {
-        cout << "This loop has execucted " << index + 1 << " times" << endl;
-    }
-    myFirstArray();
+    secondArray();
+    stuff();
+    //myFirstArray();
+    //forLoop();
 }
 int Controller:: myFirstArray()
 {
@@ -37,4 +36,11 @@ int Controller:: myFirstArray()
     }
     
     return 0;
+}
+void Controller:: forLoop()
+{
+    for(int index = 0; index < 10; index+=1)
+    {
+        cout << "This loop has execucted " << index + 1 << " times" << endl;
+    }
 }
