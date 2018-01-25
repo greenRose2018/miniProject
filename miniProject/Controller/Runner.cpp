@@ -6,4 +6,10 @@
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
-#include <stdio.h>
+#include "Controller.hpp" //only include needed in Runner
+
+int main()
+{
+    Controller app;
+    app.start();
+}
