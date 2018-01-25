@@ -21,5 +21,20 @@ void Controller:: start()
     {
         cout << "This loop has execucted " << index + 1 << " times" << endl;
     }
+    myFirstArray();
 }
+int Controller:: myFirstArray()
+{
+    int myArray [20];
+    
+    for(int index = 0; index < 20; index++)
+    {
+        myArray[index] = index + 100;
+    }
+    for (int j = 0; j < 20; j++)
+    {
+        cout << myArray[j] << endl;
+    }
+    
+    return 0;
 }
