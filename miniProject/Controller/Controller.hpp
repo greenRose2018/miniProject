@@ -10,6 +10,8 @@
 #define Controller_hpp // both must be unique
 
 #include <iostream>
+#include <string>
+using namespace std;
 
 class Controller
 {
@@ -23,7 +25,7 @@ public:
     void start();
     int myFirstArray();
     int secondArray();
-    std:: string stuff();
+    string stuff();
     void forLoop();
 };
 
